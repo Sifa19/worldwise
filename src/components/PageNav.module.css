@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 2rem;
+  position: relative;
+}
+.nav ul li {
+  list-style: none;
+  margin-left: 1rem;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+}
+
+.nav ul li a {
+  font-weight: 700;
+  color: var(--color-light--2);
+  text-decoration: none;
+}
+
+:global(.active) {
+  color: #00c46a !important;
+}

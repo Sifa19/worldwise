@@ -1,0 +1,12 @@
+.app {
+  margin: 1rem;
+  height: calc(100vh - 3rem);
+  display: flex;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+}
