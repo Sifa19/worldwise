@@ -27,7 +27,3 @@
   color: var(--color-light--2);
   text-decoration: none;
 }
-
-:global(.active) {
-  color: #00c46a !important;
-}

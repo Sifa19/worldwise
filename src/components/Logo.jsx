@@ -4,7 +4,11 @@ function Logo() {
   return (
     <div>
       <NavLink to="/">
-        <img className={styles.logo} src="./assets/logo.png" alt="logo" />
+        <img
+          className={styles.logo}
+          src="../public/assets/logo.png"
+          alt="logo"
+        />
       </NavLink>
     </div>
   );

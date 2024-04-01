@@ -41,6 +41,10 @@ body {
   cursor: pointer;
 }
 
+/* .active {
+  color: #00c46a;
+} */
+
 /* label {
     font-size: 1.6rem;
     font-weight: 600;
