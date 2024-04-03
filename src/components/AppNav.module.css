@@ -7,8 +7,8 @@
   background-color: var(--color-dark--2);
   text-decoration: none;
   font-weight: 700;
-  padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
+  padding: 1vw 1.5vw;
+  border-radius: 0.5vw;
 }
 
 .nav a:global(.active) {

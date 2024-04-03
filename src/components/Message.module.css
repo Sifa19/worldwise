@@ -1,7 +1,7 @@
 .message {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1vw;
   width: 80%;
-  margin: 2rem auto;
+  margin: 2vw auto;
   font-weight: 600;
 }

@@ -1,12 +1,9 @@
 .app {
-  margin: 1rem;
-  height: calc(100vh - 3rem);
+  margin: 1vw;
+  height: calc(100vh - 3vw);
   display: flex;
 }
 
 .logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 10rem;
+  margin-right: auto;
 }

@@ -10,15 +10,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   /* padding: 2.5rem 5rem; */
-  padding: 2.5rem 3rem;
+  padding: 2.5vw 3rem;
+  font-size: 1.2rem;
 }
 
 .homepage section {
-  padding-top: 5rem;
+  padding-top: 5vw;
   height: 85%;
   display: flex;
+  word-break: normal;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 2.5vw;
   align-items: center;
   text-align: center;
 }

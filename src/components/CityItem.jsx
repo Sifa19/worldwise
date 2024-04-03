@@ -1,4 +1,5 @@
 import styles from "./CityItem.module.css";
+import { Link } from "react-router-dom";
 
 const formatDate = (date) => {
   return new Intl.DateTimeFormat("en", {
@@ -9,16 +10,19 @@ const formatDate = (date) => {
 };
 
 function CityItem({ city }) {
-  const { cityName, emoji, date } = { ...city };
+  const { id, cityName, emoji, date, position } = { ...city };
 
   return (
-    <li className={styles.cityItem}>
+    <Link
+      className={styles.cityItem}
+      to={`${id}?lat=${position.lat}&lng=${position.lng}`}
+    >
       <span className={styles.emoji}>{emoji}</span>
       <flag-emoji code="us"></flag-emoji>
       <h5 className={styles.name}>{cityName}</h5>
       <time className={styles.date}>({formatDate(date)})</time>
       <button className={styles.deleteBtn}>&times;</button>
-    </li>
+    </Link>
   );
 }
 
