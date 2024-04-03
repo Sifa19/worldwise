@@ -1,9 +1,9 @@
 .btn {
   color: inherit;
   text-transform: uppercase;
-  padding: 0.8rem 1.6rem;
+  padding: 0.8vw;
   font-family: inherit;
-  font-size: 1.5rem;
+  font-size: 2vw;
   border: none;
   border-radius: 5px;
   cursor: pointer;

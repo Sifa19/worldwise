@@ -17,7 +17,7 @@ function Home() {
           of. Never forget your wonderful experiences and show your friend how
           you have wandered the world.
         </p>
-        <Link to="/app">
+        <Link to="/app/cities">
           <button className="btn">START TRACKING NOW</button>
         </Link>
       </section>
