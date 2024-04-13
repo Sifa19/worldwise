@@ -15,7 +15,10 @@
 
   cursor: pointer;
 }
-
+.cityItem--selected {
+  border: 0.1vw solid var(--color-brand--2);
+  border-left: 0.5vw solid var(--color-brand--2);
+}
 .date {
   margin-left: auto;
 }

@@ -14,17 +14,24 @@
   gap: 0.5rem;
   position: relative;
 }
-
-.buttons {
-  display: flex;
-  justify-content: space-between;
-}
+/* .form span {
+  font-size: 0.8rem;
+  z-index: 1000;
+  position: absolute;
+  top: 2rem;
+  right: 0;
+} */
 
 .flag {
   position: absolute;
   right: 1rem;
-  top: 2.7rem;
-  font-size: 2.8rem;
+  top: 1.7rem;
+  font-size: 0.8rem;
+  color: rgb(74, 72, 72);
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
 }
 
 .form.loading {

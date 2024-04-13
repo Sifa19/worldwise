@@ -1,4 +1,8 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
+import { useCities } from "../contexts/CitiesContext";
+import { useEffect } from "react";
+import Spinner from "../components/Spinner";
+import Button from "./Button";
 
 const formatDate = (date) => {
   return new Intl.DateTimeFormat("en", {
@@ -9,9 +13,32 @@ const formatDate = (date) => {
 };
 
 function City() {
+  const navigate = useNavigate();
   const { city } = useParams();
+  const { getCity, currentCity, isLoading, setIsLoading } = useCities();
+  useEffect(
+    function () {
+      getCity(city);
+      setIsLoading(false);
+    },
+    [city]
+  );
 
-  return <div>City:{city}</div>;
+  console.log(isLoading);
+  return (
+    <>
+      {isLoading ? <Spinner /> : <div>City:{currentCity.cityName}</div>}
+      <Button
+        cssStyles="back"
+        onClick={(e) => {
+          e.preventDefault();
+          navigate(-1);
+        }}
+      >
+        &larr; Back
+      </Button>
+    </>
+  );
 }
 
 export default City;
