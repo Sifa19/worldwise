@@ -1,14 +1,14 @@
 .countryList {
   list-style: none;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2vw;
+  overflow-y: scroll;
 }
 
 .countryList li {
   width: 18vw;
-  height: 10vw;
+  max-height: fit-content;
   border-radius: 0.4vw;
   border-left: 5px solid var(--color-brand--1);
   background-color: var(--color-dark--2);
