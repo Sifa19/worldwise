@@ -18,7 +18,7 @@ function PageNav() {
           </li>
           <li>
             <NavLink to="/login">
-              <button className="btn ">LOGIN</button>
+              <button className={`btn ${styles.btn}`}>LOGIN</button>
             </NavLink>
           </li>
         </ul>

@@ -6,7 +6,7 @@
   border-left: 0.5vw solid var(--color-brand--2);
   background-color: var(--color-dark--2);
   color: inherit;
-  font-size: 1.8vw;
+  font-size: clamp(0.2rem, 0.75rem + 1vw, 1rem);
 
   padding: 0.5vw 1.5vw;
   display: flex;
@@ -21,16 +21,17 @@
 }
 .date {
   margin-left: auto;
+  font-size: clamp(0.05rem, 0.75rem + 1vw, 1rem);
 }
 
 .deleteBtn {
   border: none;
-  height: 2vw;
+  height: clamp(1rem, 2vw, 2rem);
   aspect-ratio: 1;
   border-radius: 50%;
   background-color: var(--color-dark--1);
   color: var(--color-light--2);
-  font-size: 1.5vw;
+  font-size: clamp(0.5rem, 0.75rem + 1vw, 1rem);
   font-weight: 400;
 
   cursor: pointer;
@@ -40,4 +41,15 @@
 .deleteBtn:hover {
   background-color: var(--color-brand--1);
   color: var(--color-dark--1);
+}
+
+@media screen and (max-width: 650px) {
+  .cityItem,
+  .cityItem:visited,
+  .cityItem:link {
+    flex-direction: column;
+  }
+  .date {
+    margin: 0;
+  }
 }

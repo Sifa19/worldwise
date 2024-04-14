@@ -13,39 +13,27 @@
       "id": "73930385"
     },
     {
-      "id": "631e",
-      "cityName": "Milton Keynes",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "emoji": "🇬🇧",
-      "date": "2024-04-13T17:07:47.697Z",
-      "notes": "",
-      "position": {
-        "lat": "52.06238246667039",
-        "lng": "-0.7251220728764407"
-      }
-    },
-    {
-      "id": "82e3",
-      "cityName": "Shahdad Kot",
+      "id": "0df5",
+      "cityName": "Kut Mandai",
       "country": "Pakistan",
       "emoji": "🇵🇰",
-      "date": "2024-04-13T17:07:58.119Z",
+      "date": "2024-04-14T04:50:25.408Z",
       "notes": "",
       "position": {
-        "lat": "27.88983063227441",
-        "lng": "67.91796628160516"
+        "lat": "29.722362743038243",
+        "lng": "68.08872352174401"
       }
     },
     {
-      "id": "892b",
-      "cityName": "Harrogate",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "emoji": "🇬🇧",
-      "date": "2024-04-14T04:31:30.358Z",
+      "id": "4700",
+      "cityName": "Mont-Bernanchon",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-04-14T11:14:25.837Z",
       "notes": "",
       "position": {
-        "lat": "54.03124123577354",
-        "lng": "-1.7846264656920388"
+        "lat": "50.59998049811194",
+        "lng": "2.593652997658227"
       }
     }
   ]

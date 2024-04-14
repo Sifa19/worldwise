@@ -1,6 +1,7 @@
 .product {
   width: 100vw;
   height: 100vh;
+  font-size: clamp(0.5rem, 0.75rem + 1vw, 1rem);
   background-color: var(--color-dark--0);
   padding: 2.5rem 3rem;
   display: flex;
@@ -19,6 +20,18 @@
 }
 
 .image {
-  width: 15rem;
-  height: 15rem;
+  width: 20vw;
+  aspect-ratio: 1;
+}
+
+@media screen and (max-width: 650px) {
+  .product {
+    height: fit-content;
+  }
+  .product section {
+    flex-direction: column;
+  }
+  .image {
+    width: 50vw;
+  }
 }

@@ -3,7 +3,7 @@
   height: 100vh;
   width: 100vw;
   background-color: var(--color-dark--0);
-
+  font-size: clamp(0.01rem, 0.75rem + 1vw, 1rem);
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -21,5 +21,22 @@
 }
 .image {
   width: 15rem;
-  height: 15rem;
+  aspect-ratio: 1;
+}
+
+.btn {
+  margin-bottom: 1vw;
+}
+
+@media screen and (max-width: 650px) {
+  .pricing {
+    height: 100%;
+  }
+  .pricing section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .image {
+    width: 50vw;
+  }
 }

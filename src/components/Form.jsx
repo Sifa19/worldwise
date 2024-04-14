@@ -92,12 +92,14 @@ function Form() {
     >
       <div className={styles.row}>
         <label htmlFor="cityName">City name</label>
-        <input
-          id="cityName"
-          onChange={(e) => setCityName(e.target.value)}
-          value={cityName}
-        />
-        <span className={styles.flag}>{emoji}</span>
+        <div className={styles.flagrow}>
+          <input
+            id="cityName"
+            onChange={(e) => setCityName(e.target.value)}
+            value={cityName}
+          />
+          <span className={styles.flag}>{emoji}</span>
+        </div>
       </div>
       <div className={styles.row}>
         <label htmlFor="date">When did you go to {cityName}?</label>

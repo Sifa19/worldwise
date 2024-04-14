@@ -22,7 +22,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
   box-sizing: border-box;
 }
 
@@ -43,7 +43,7 @@ textarea {
   width: 100%;
   padding: 0.8rem 1.2rem;
   font-family: inherit;
-  font-size: 1.6rem;
+  font-size: clamp(1rem, 0.75rem + 1vw, 2rem);
   border: none;
   border-radius: 5px;
   background-color: var(--color-light--3);
@@ -62,7 +62,7 @@ input:focus {
   color: var(--color-dark--1);
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: clamp(1rem, 0.75rem + 1vw, 2rem);
   font-weight: 600;
   padding: 1rem 3rem;
   border-radius: 5px;

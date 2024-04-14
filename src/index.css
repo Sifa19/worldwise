@@ -22,6 +22,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: clamp(1rem, 0.75rem + 0.1vw, 1.5rem);
 }
 
 body {
@@ -35,10 +36,10 @@ body {
   background-color: var(--color-brand--2);
   color: var(--color-dark--1);
   text-transform: uppercase;
-  font-size: 2vw;
+  font-size: clamp(1rem, 0.75rem + 0.1vw, 1.5rem);
   font-weight: 700;
   border: none;
-  border-radius: 0.2vw;
+  border-radius: 1vw;
   padding: 0.5vw 1vw;
   cursor: pointer;
 }
@@ -47,41 +48,39 @@ body {
   color: #00c46a;
 } */
 
-/* label {
-    font-size: 1.6rem;
-    font-weight: 600;
-  }
-  
-  input,
-  textarea {
-    width: 100%;
-    padding: 0.8rem 1.2rem;
-    font-family: inherit;
-    font-size: 1.6rem;
-    border: none;
-    border-radius: 5px;
-    background-color: var(--color-light--3);
-    transition: all 0.2s;
-  }
-  
-  input:focus {
-    outline: none;
-    background-color: #fff;
-  }
-  
-  .cta:link,
-  .cta:visited {
-    display: inline-block;
-    background-color: var(--color-brand--2);
-    color: var(--color-dark--1);
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 1.6rem;
-    font-weight: 600;
-    padding: 1rem 3rem;
-    border-radius: 5px;
-  }
-   */
+label {
+  font-size: clamp(0.1rem, 0.1rem + 1vw, 1.5rem);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.2vw;
+  font-size: clamp(0.1rem, 0.1rem + 1vw, 1.5rem);
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-light--3);
+  transition: all 0.2s;
+}
+
+input:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+.cta:link,
+.cta:visited {
+  display: inline-block;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+}
+
 /*
   "importCSSModule": {
       "prefix": "csm",
@@ -89,4 +88,4 @@ body {
       "body": ["import styles from './${TM_FILENAME_BASE}.module.css'"],
       "description": "Import CSS Module as `styles`"
     },
-  */
+ */

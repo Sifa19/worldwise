@@ -6,8 +6,9 @@
   color: #fff;
   background-color: var(--color-dark--2);
   text-decoration: none;
+  font-size: clamp(0.2rem, 0.75rem + 1vw, 1rem);
   font-weight: 700;
-  padding: 1vw 1.5vw;
+  padding: 1vw;
   border-radius: 0.5vw;
 }
 
