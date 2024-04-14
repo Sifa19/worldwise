@@ -35,6 +35,18 @@
         "lat": "27.88983063227441",
         "lng": "67.91796628160516"
       }
+    },
+    {
+      "id": "892b",
+      "cityName": "Harrogate",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2024-04-14T04:31:30.358Z",
+      "notes": "",
+      "position": {
+        "lat": "54.03124123577354",
+        "lng": "-1.7846264656920388"
+      }
     }
   ]
 }

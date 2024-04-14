@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useCities } from "../contexts/CitiesContext";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Spinner from "../components/Spinner";
 import Button from "./Button";
 
@@ -15,7 +15,8 @@ const formatDate = (date) => {
 function City() {
   const navigate = useNavigate();
   const { city } = useParams();
-  const { getCity, currentCity, isLoading, setIsLoading } = useCities();
+  const { getCity, currentCity } = useCities();
+  const [isLoading, setIsLoading] = useState(true);
   useEffect(
     function () {
       getCity(city);
