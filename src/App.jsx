@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { AuthenticationContext } from "./contexts/AuthenticationContext";
 import { CitiesProvider } from "./contexts/CitiesContext";
 import "./index.css";
 
@@ -15,6 +16,7 @@ import City from "./components/City";
 
 function App() {
   return (
+    // <AuthenticationContext>
     <CitiesProvider>
       <BrowserRouter>
         <Routes>
@@ -33,6 +35,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </CitiesProvider>
+    // </AuthenticationContext>
   );
 }
 

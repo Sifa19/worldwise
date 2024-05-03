@@ -37,15 +37,15 @@
       }
     },
     {
-      "id": "892b",
-      "cityName": "Harrogate",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "emoji": "🇬🇧",
-      "date": "2024-04-14T04:31:30.358Z",
+      "id": "25f8",
+      "cityName": "Gaggenau",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2024-05-03T11:43:20.551Z",
       "notes": "",
       "position": {
-        "lat": "54.03124123577354",
-        "lng": "-1.7846264656920388"
+        "lat": "48.852312486978924",
+        "lng": "8.340888808630377"
       }
     }
   ]

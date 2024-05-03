@@ -22,7 +22,7 @@ function City() {
       getCity(city);
       setIsLoading(false);
     },
-    [city]
+    [city, getCity]
   );
 
   console.log(isLoading);
